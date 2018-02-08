@@ -1,3 +1,7 @@
+<?php
+session_start();
+?> 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,34 +17,29 @@
 <form action="results.php" method="get">
     Apor
     <br/>
-    <input type="number">
+        <input type="number">
     <br/>
 
     Tiger
     <br/>
-    <input type="number">
+        <input type="number">
     <br/>
 
     Giraff
     <br/>
-    <input type="number">
+        <input type="number">
     <br/>
 
     Kokosnöt
     <br/>
-    <input type="number">
+        <input type="number">
     <br/>
 
 </form>
 <br/>
+<br/>
 
-<input type="submit">
-
-
-<?php
-
-
-?>
-    
+<button type="submit">klicka</button>
+  
 </body>
 </html>
